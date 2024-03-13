@@ -7,6 +7,8 @@ fn main() -> Result<(), rclrs::RclrsError> {
 
     let mut cnt: i64 = 0;
 
+    println!("Hola 🦝 from 🦀!");
+
     while context.ok() {
         let mut msg = HelloMsg::default();
         msg.num = cnt;
